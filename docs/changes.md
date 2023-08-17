@@ -11,9 +11,9 @@
 - [General] Bump minimum supported Android version to Android 6.0
 - [General] New magic mount backend. It supports loading modules into system with `overlayfs` files injected
 - [Zygisk] Release new API version 4
-- [Zygisk] Prevent crashing daemon in error
-- [Zygisk] Rewrite zygote code injection with new loader library approach
-- [Zygisk] Rewrite code unloading implementation
+- (N/A) Prevent crashing daemon in error
+- [N/A] Rewrite zygote code injection with new loader library approach
+- [N/A] Rewrite code unloading implementation
 - [MagiskBoot] Support amonet microloader devices
 - [MagiskBoot] Always use lz4_legacy compression on v4 boot images. This fixes boot image patching issues on Android U preview.
 - [MagiskInit] Support replacing existing \*.rc files in `overlay.d`
@@ -35,7 +35,7 @@
 
 - [MagiskBoot] Fix ramdisk backup being incorrectly skipped
 - [MagiskBoot] Add new feature to detect unsupported dtb and abort during installation
-- [Zygisk] Change binary hijack paths
+- (N/A) Change binary hijack paths
 - [App] Fix incorrect recovery mode detection and installation
 - [MagiskInit] Fix config not properly exported in legacy SAR devices
 - [General] Enforce the Magisk app to always match or be newer than `magiskd`
